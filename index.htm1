@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>হাফিজুলের ওয়েবসাইট</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f0f8ff;
+      padding: 20px;
+    }
+    h1 {
+      color: #1a73e8;
+    }
+    img {
+      width: 300px;
+      margin: 10px 0;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    .box {
+      background-color: #e0ffff;
+      padding: 10px;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>হাফিজুলের ব্যক্তিগত ওয়েবসাইটে স্বাগতম!</h1>
+
+  <p>আমি হাফিজুল। আমি ওয়েব ডিজাইন শিখছি HTML ও CSS দিয়ে।</p>
+
+  <img src="https://via.placeholder.com/300" alt="একটি ছবি">
+
+  <p><a href="https://www.google.com" target="_blank">গুগলে যাও</a></p>
+
+  <button onclick="alert('ধন্যবাদ হাফিজুল!')">আমাকে ক্লিক করো</button>
+
+  <div class="box">
+    <h3>আমি কী শিখেছি:</h3>
+    <ul>
+      <li>HTML</li>
+      <li>ছবি ও লিংক</li>
+      <li>বোতাম</li>
+      <li>টেবিল ও ফর্ম</li>
+    </ul>
+  </div>
+
+  <h3>আমার পরিচিতি টেবিল:</h3>
+  <table>
+    <tr>
+      <th>নাম</th>
+      <th>বয়স</th>
+      <th>পছন্দ</th>
+    </tr>
+    <tr>
+      <td>হাফিজুল</td>
+      <td>১৬</td>
+      <td>ডিজাইন শেখা</td>
+    </tr>
+  </table>
+
+  <h3>যোগাযোগ করুন:</h3>
+  <form>
+    <label>তোমার নাম:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>তোমার ইমেইল:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>বার্তা:</label><br>
+    <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="পাঠিয়ে দাও">
+  </form>
+
+</body>
+</html>
